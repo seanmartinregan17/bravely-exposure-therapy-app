@@ -1,13 +1,9 @@
-import React from 'react';
-
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">Bravely</h1>
-        <p className="text-xl text-gray-600">Exposure Therapy Tracking App</p>
-        <p className="text-sm text-gray-500 mt-2">Coming Soon...</p>
-      </div>
+    <div style={{ padding: '20px', textAlign: 'center', fontFamily: 'Arial, sans-serif' }}>
+      <h1 style={{ color: '#4F9A94' }}>Bravely</h1>
+      <p>Exposure Therapy Tracking App</p>
+      <p style={{ color: '#666' }}>Coming Soon - Deployment Successful!</p>
     </div>
   );
 }
